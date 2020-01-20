@@ -1,6 +1,6 @@
 name: CI Test
 
-on: ["push"]
+on: push
 jobs:
   ci:
     runs-on: ubuntu
