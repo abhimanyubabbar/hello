@@ -3,7 +3,7 @@ name: CI Test
 on: push
 jobs:
   ci:
-    runs-on: ubuntu
+    runs-on: "ubuntu:18.04"
     steps:
       - name: Install Go
         uses: actions/setup-go@v1
